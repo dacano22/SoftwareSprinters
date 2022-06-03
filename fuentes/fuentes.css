@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Helvetica.ttf');
+}
+
+@font-face {
+    font-family: 'Helvetica Light';
+    src: url('Helvetica_Light.ttf');
+}
+
+@font-face {
+    font-family: 'Helvetica Bold';
+    src: url('Helvetica_Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Muli Bold';
+    src: url('Muli_Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Muli';
+    src: url('Muli-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Muli Sub';
+    src: url('Muli.ttf');
+}
