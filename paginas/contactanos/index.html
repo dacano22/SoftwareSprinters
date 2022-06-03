@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inquietudes | Contácto</title>
+    <link rel="shortcut icon" href="../../favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <link rel="stylesheet" href="../../estilos/menu.css">
+    <link rel="stylesheet" href="../../estilos/bootstrap.min.css">
+    <link rel="stylesheet" href="../../fuentes/fuentes.css">
+</head>
+
+<header>
+    <nav class="navbar p-3 navbar-principal">
+        <div class="w-25" name="Logo">
+            <img class="ms-5" src="../../logos/logo.svg" width="250px" alt="">
+        </div>
+        <div class="w-50" name="Menu">
+            <ul class="d-flex justify-content-evenly m-auto lista-menu">
+                <a class="enlace" href="../../index.html">
+                    <li>Inicio</li>
+                </a>
+                <a class="enlace" href="../nosotros/index.html">
+                    <li>Nosotros</li>
+                </a>
+                <li id="menu-seleccionado">Contáctanos</li>
+            </ul>
+        </div>
+        <div class="w-25 d-flex justify-content-center" name="Menu">
+            <button class="ms-5 agenda-digital" onclick="window.location.href='../loginAD'">AGENDA DIGITAL</button>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-desplegable">
+        <div class="w-25" name="Logo">
+            <img class="ms-5" src="../../logos/logo.svg" width="250px" alt="">
+        </div>
+        <span class="menu p-3 d-flex align-items-center" id="desplegar">
+            <img src="../../imagenes/menu-logo.svg" alt="">
+        </span>
+    </nav>
+
+    <section class="menu-desplegable" style="display: none;">
+        <ul class="p-4 lista-menu-desplegable">
+            <a href="../../index.html">
+                <li>Inicio</li>
+            </a>
+            <a href="../nosotros/index.html">
+                <li class="menu-margen">Nosotros</li>
+            </a>
+            <li class="menu-seleccionado-desplegable menu-margen">Contáctanos</li>
+        </ul>
+    </section>
+</header>
+
+<body>
+    <section class="s1">
+        <h1>Contáctanos</h1>
+        <p class="text-center mb-2">Deja que nuestro equipo se comunique contigo para recibir más información.</p>
+
+        <div class="formulario">
+            <div class="d-flex">
+                <input class="form-control" type="text" placeholder="Nombre" id="nombre" name="nombre" autocomplete="off" required>
+                <input class="form-control" type="text" placeholder="Apellido" id="apellido" name="apellido" autocomplete="off" required>
+            </div>
+            <div>
+                <input class="form-control" type="text" placeholder="Asunto" id="asunto" name="asunto" autocomplete="off" required>
+            </div>
+            <div>
+                <input class="form-control" type="email" placeholder="E-Mail" id="email" name="email" autocomplete="off" required>
+            </div>
+            <div class="d-flex flex-column">
+                <textarea class="form-control" placeholder="Escribe tu mensaje aquí..." id="mensaje" name="mensaje" autocomplete="off" required></textarea>
+                <button class="agenda-digital" onclick="correo()">Enviar</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script src="../../funciones/jquery-3.6.0.js"></script>
+<script src="../../funciones/bootstrap.min.js"></script>
+<script src="../../funciones/menu.js"></script>
+<script src="funciones/funciones.js"></script>
+
+</html>
