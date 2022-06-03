@@ -1,0 +1,130 @@
+.cuerpo {
+    width: 100vw;
+    height: 100vh;
+}
+
+.cursor-pointer:hover {
+    background-color: rgba(255, 255, 255, 0.199);
+    cursor: pointer;
+}
+
+.colIzq {
+    position: relative;
+    background-color: #304250;
+    width: 150px;
+    min-height: 770px;
+}
+
+.colIzq .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    min-height: 150px;
+    padding: 25px;
+}
+
+.colIzq .colIzqMenu {
+    height: 80%;
+}
+
+.colIzq .opcion {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.colIzqUser .opcion {
+    width: 10vw;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.colIzq .opcion p,
+.colIzqUser .opcion p {
+    font-family: 'Muli';
+    font-size: 18px;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 0;
+    letter-spacing: -1px;
+    color: white;
+}
+
+.colIzq .opcion img,
+.colIzqUser .opcion img {
+    margin-bottom: 5px;
+    width: 45px;
+}
+
+.colIzq .opcionSel {
+    background-color: #FFF;
+}
+
+.colIzq .opcionSel p {
+    font-family: 'Muli Bold';
+    color: #00BDD5;
+}
+
+.colIzqUser {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.principal {
+    width: 90vw;
+}
+
+.principal h2 {
+    font-family: 'Muli';
+    letter-spacing: -1px;
+    color: rgb(73, 73, 73);
+}
+
+.principal hr {
+    border: 1px solid rgb(190, 190, 190);
+}
+
+.principal .usuario {
+    height: 7%;
+    min-height: 52px;
+}
+
+.principal .hr {
+    height: 3%;
+}
+
+.principal .contenido {
+    height: 85%;
+    min-height: 632px;
+}
+
+.principal .usuario h5 {
+    font-family: 'Muli';
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.principal .usuario button {
+    font-family: 'Muli' !important;
+    font-size: 18px !important;
+    letter-spacing: -1px;
+}
+
+.principal label {
+    font-family: 'Muli' !important;
+    font-size: 17px !important;
+    letter-spacing: -1px;
+}
+
+.principal h3 {
+    font-family: 'Muli Bold' !important;
+    letter-spacing: -1px;
+}
